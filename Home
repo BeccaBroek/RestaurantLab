@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Home Page</title></head>
+  <body>
+    <center><h1>Broek's Cafe</h1></center>
+    <hr>
+    <p><code><a href="www.Broekscafe.com">Home</a> <a href="www.broekscafe.com/menu">Menu</a> <a href="Broekscafe.com/contactus">Contact Us</a></code><p>
+    <hr>
+    <center>
+    <img src="http://a.abcnews.com/images/Lifestyle/GTY_doughnuts_jef_150602_16x9_992.jpg" 
+      style="width: 600px; height: 150px;"/><br>
+    <table border="1">
+      <tr>
+      <td width="600px"> Broek's Cafe is a cafe that only provides donuts. We accept walk-in or call-in deliveries. We are unable to take online orders at this time because we are not sure how to set up that kind of webpage just yet. Stay tuned.</td>
+      </tr>
+    </table>
+    <hr>
+    <h3>Lyndale Ave, Minneapolis, Minnesota, 55408<br><BR>
+      (952)381-5897</h3>
+  </body>
+</html>
