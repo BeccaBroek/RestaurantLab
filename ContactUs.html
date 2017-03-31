@@ -4,11 +4,17 @@
 		<link href="restaurantStyles.css" 
       	rel="stylesheet" 
       	type="text/css" />
-	</head>
-	<body>
+    <style>
+      #form{
+        font-weight:bold;
+      }
+    </style>	
+  </head>
 	
-	<center>
-		<div id="header">
+  <body>
+	
+	 <center>
+	 <div id="header">
 			<h2>Broek's Cafe</h2>
 			<hr/>
 			<a href="Home.html">Home</a>
@@ -17,43 +23,45 @@
 			<hr/>
 		</div>
 
+    <div id="body">
+	   <center><br/><br/>
+        <div id="form">
+          <form action="Home.html" method="POST">
 
-	<center>
+            Name:<input type="text" name="Name" /><br>
 
-    <form action="Home.html" method="POST">
+            Email:<input type="text" name="Email" /><br>
 
-      Name:<input type="text" name="Name" /><br>
-
-      Email:<input type="text" name="Email" /><br>
-
-      Phone:<input type="text" name="Phone" /><br>
+            Phone:<input type="text" name="Phone"/><br>
  
-      Reason for Inquiry:<select name="Reason">
+            Reason for Inquiry:<select name="Reason">
               <option value="Select a Reason">Catering</option>
               <option value="Software Support">Private Party</option>
               <option value="Hardware Support">Feedback</option>
               <option value="Information Request">Other</option>
-            </select><br>
-      Additional Information:<textarea name="AdditionalInfo"></textarea><br/>
+              </select><br>
+            Additional Information:<textarea name="AdditionalInfo"></textarea><br/>
 
-      Have you been to this restaurant?<input type="radio" name="answer" value="Yes" checked/>Yes
-          <input type="radio" name="answer" value="No"/>No<br/>
-      Best days to contact you:
-      <input type="checkbox" name="Bestday" value="Monday"/>M
-      <input type="checkbox" name="BestDay" value="Tuesday"/>T
-      <input type="checkbox" name="BestDay" value="Wednesday"/>W
-      <input type="checkbox" name="BestDay" value="Thursday"/>Th
-      <input type="checkbox" name="BestDay" value="Friday"/>F<br>
-      <input type="Submit" value="Send Request"/><br/>
-    </form></center>
+            Have you been to this restaurant?<input type="radio" name="answer" value="Yes" checked/>Yes
+              <input type="radio" name="answer" value="No"/>No<br/>
+            Best days to contact you:
+              <input type="checkbox" name="Bestday" value="Monday"/>M
+              <input type="checkbox" name="BestDay" value="Tuesday"/>T
+              <input type="checkbox" name="BestDay" value="Wednesday"/>W
+              <input type="checkbox" name="BestDay" value="Thursday"/>Th
+              <input type="checkbox" name="BestDay" value="Friday"/>F<br>
+              <input type="Submit" value="Send Request"/><br/>
+          </form>
+      </center>
+      </div>
+    </div>
 
-
-<div id="footer">
+    <div id="footer">
   			<center>
   			<hr/>
   			<h3>Lyndale Ave, MPLS, MN, 55408
   			<br>952-381-5555</h1>
   			</center>
-  		</div>
+  	</div>
   	</body>
-  	</html>
+</html>

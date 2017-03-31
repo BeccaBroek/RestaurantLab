@@ -1,3 +1,7 @@
-#header,#footer{color:pink;
+#footer{color:pink;
 	
+}
+#header{font-family:sans-serif; color:pink;}
+
+#body{background-color:rgb(97,95,106);
 }
