@@ -5,3 +5,22 @@
 
 #body{background-color:rgb(97,95,106);
 }
+
+a {
+   font-family: sans-serif;
+   text-decoration: underline;
+   font-weight: none;
+   color: purple;
+   }
+a:link {
+        }
+a:visited {
+   color: pink;
+   }
+a:hover {
+   font-weight:bold;
+   }
+a:active {
+   font-weight: bold;
+   text-decoration: none;
+   }
