@@ -1,9 +1,11 @@
 #footer{color:pink;
 	
 }
-#header{font-family:sans-serif; color:pink;}
+.header{font-family:sans-serif; color:pink; text-align:center;}
 
-#body{background-color:rgb(97,95,106);
+.body{background-color:rgb(97,95,106);
+      margin:30px;
+      padding:10px;
 }
 
 a {

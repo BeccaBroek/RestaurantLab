@@ -4,28 +4,46 @@
 		<link href="restaurantStyles.css" 
       	rel="stylesheet" 
       	type="text/css" />
+    <link href="bootstrap/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        type="text/css" />
     <style>
       #form{
         font-weight:bold;
       }
+      .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+          color:white;
+          background-color:pink;
+      }
     </style>	
   </head>
 	
-  <body>
-	
-	 <center>
-	 <div id="header">
-			<h2>Broek's Cafe</h2>
-			<hr/>
-			<a href="Home.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="contactUs.html">Contact Us</a>
-			<hr/>
-		</div>
-
-    <div id="body">
-	   <center><br/><br/>
-        <div id="form">
+ <body>
+  <center><br/><br/>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-s-4 col-md-4 col-lg-4 col-xl-4"></div>
+        <div class="col-xs-4 col-s-4 col-md-4 col-lg-4 col-xl-4">
+         <div class="header">
+            <h2>Broek's Cafe</h2>
+         </div>
+        <div class="col-xs-4 col-s-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <ul class="nav nav-pills">
+          <li><a href="Home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+          <li><a href="Menu.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
+          <li class="active"><a href="ContactUs.html"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></a></li>
+          </ul>
+          </div>
+        </div>
+    <div class="row">
+      <div class="col-xs-1 col-s-1 col-md-1 col-lg-1 col-xl-1"></div>
+      <div class="col-xs-10 col-s-10 col-md-10 col-lg-10 col-xl-10">
+      ` <div class="body">
+	       <center>
+          <div id="form">
           <form action="Home.html" method="POST">
 
             Name:<input type="text" name="Name" /><br>
@@ -55,7 +73,10 @@
       </center>
       </div>
     </div>
-
+    </div>
+    <div class="col-xs-1 col-s-1 col-md-1 col-lg-1 col-xl-1"></div>
+    </div>
+    </div>
     <div id="footer">
   			<center>
   			<hr/>

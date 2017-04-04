@@ -4,39 +4,62 @@
 		<link href="restaurantStyles.css" 
       	rel="stylesheet" 
       	type="text/css" />
+    <link href="bootstrap/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        type="text/css" />
 
       	<style>
-      	td{text-align:center;}
+      	td{text-align:center;
+          padding:10px;
+        }
       	
         table{ 
-        width:600px;
         background-color:rgb(240,248,255);
         }
         
         th{
           font-size:20;
           color:pink;
+          text-align:center;
+          padding:10px;
         }
         .bev{
           text-align:left;
         }
+        .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+          color:white;
+          background-color:pink;
+        }
       </style>
 	</head>
-	<body>
-	 <center>
-		<div id="header">
-			<h2>Broek's Cafe</h2>
-			<hr/>
-			<a href="Home.html">Home</a>
-			<a href="menu.html">Menu</a>
-			<a href="contactUs.html">Contact Us</a>
-			<hr/>
-		</div>
-  </center>
-  <div id="body">
-    <center>
-    <br/><br/>
-        <table>
+	
+
+  <body>
+  <center><br/><br/>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+         <div class="header">
+            <h2>Broek's Cafe</h2>
+         </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <ul class="nav nav-pills">
+          <li><a href="Home.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+          <li class="active"><a href="Menu.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></a></li>
+          <li><a href="ContactUs.html"><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span></a></li>
+          </ul>
+          </div>
+        </div>
+    <div class="row">
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 col-xl-1"></div>
+      <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xl-10">
+      ` <div class="body">
+      <center>
+        <table class="table-responsive">
           <thead>
           <tr>
               <th>Cake Donut</th>
@@ -82,9 +105,25 @@
             <td>$1.25</td>
           </tr>
           </thead>
-        </table></center><br/><br/>
-
+        </table></center>
+         
+      </div>
     </div>
+    </div>
+    <div class="col-xs-1 col-s-1 col-md-1 col-lg-1 col-xl-1"></div>
+    </div>
+    </div>
+
+  
+  
+
+
+
+
+
+
+
+  
 
 	<div id="footer">
   			<center>
